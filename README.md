@@ -1,6 +1,8 @@
 Use cloud storage providers to store assets or thumbnails.
 
-**Notice:** Only Amazon s3, Azure Blobstorage, Minio and Google Cloud Storage are supported right now
+**Notice:** Only Amazon s3, Azure Blobstorage, Minio and Google Cloud Storage are supported right now. 
+
+Update: BackBlaze are supported
 
 # Usage
 
