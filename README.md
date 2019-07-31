@@ -1,8 +1,8 @@
 Use cloud storage providers to store assets or thumbnails.
 
-**Notice:** Only Amazon s3, Azure Blobstorage, Minio and Google Cloud Storage are supported right now. 
+**Notice:** Only Amazon s3, Azure Blobstorage, Minio, Google Cloud Storage and BackBlaze are supported right now. 
 
-Update: BackBlaze are supported
+
 
 # Usage
 
@@ -12,14 +12,16 @@ Then update the config (`config/config.yaml`), e.g:
 
 ### BackBlaze
 
+ApplicationKey is not supported yet, please use MasterKey only
+
 ```
 cloudstorage:
     assets:
         type: b2
-        bucket: xxxKeyxxx
-        clientid: xxxSecretxxx
-        secretkey: xxxxx
-        url: XXXXXXXXXXX
+        bucket: mybucket
+        accountid: xxxIdxxx
+        applicationkey: xxKeyxxx 
+        url: https://my-custom-url.com
 
        
 ```
