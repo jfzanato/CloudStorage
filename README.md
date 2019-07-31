@@ -10,6 +10,20 @@ Add files to `addons/CloudStorage`.
 
 Then update the config (`config/config.yaml`), e.g:
 
+### BackBlaze
+
+```
+cloudstorage:
+    assets:
+        type: b2
+        bucket: xxxKeyxxx
+        clientid: xxxSecretxxx
+        secretkey: xxxxx
+        url: XXXXXXXXXXX
+
+       
+```
+
 ### Amazon S3
 
 ```
